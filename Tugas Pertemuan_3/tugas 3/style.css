@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.galeri img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
